@@ -114,6 +114,8 @@ object Strings {
         "digital_academy" to "Ψηφιακή Ακαδημία"
     )
 }
+
+
 @Composable
 fun LanguageToggleButton(
     currentLanguage: AppLanguage,
