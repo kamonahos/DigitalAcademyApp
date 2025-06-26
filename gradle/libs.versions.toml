@@ -11,6 +11,8 @@ activityCompose = "1.10.1"
 composeBom = "2024.04.01"
 datastoreCoreAndroid = "1.1.7"
 datastorePreferencesCoreAndroid = "1.1.7"
+navigation = "2.7.7"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -30,6 +32,8 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-datastore-core-android = { group = "androidx.datastore", name = "datastore-core-android", version.ref = "datastoreCoreAndroid" }
 androidx-datastore-preferences-core-android = { group = "androidx.datastore", name = "datastore-preferences-core-android", version.ref = "datastorePreferencesCoreAndroid" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
